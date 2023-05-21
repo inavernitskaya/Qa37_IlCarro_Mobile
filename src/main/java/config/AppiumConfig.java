@@ -11,12 +11,12 @@ import java.net.URL;
 public class AppiumConfig {
 
     //    {
-    //  "platformName": "Android",
-    //  "deviceName": "N37",
-    //  "platformVersion": "8.0",
-    //  "appPackage": "com.telran.ilcarro",
-    //  "appActivity": ".SplashActivity"
-    //}
+//        "platformName": "Android",
+//            "deviceName": "N37",
+//            "platformVersion": "8.0",
+//            "appPackage": "com.telran.ilcarro",
+//            "appActivity": ".SplashActivity"
+//    }
     protected static AppiumDriver<AndroidElement> driver;
 
     @BeforeSuite
@@ -25,7 +25,7 @@ public class AppiumConfig {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "N37");
         capabilities.setCapability("platformVersion", "8.0");
-        capabilities.setCapability("appPackage", "com.sheygam.contactapp");
+        capabilities.setCapability("appPackage", "com.telran.ilcarro");
         capabilities.setCapability("appActivity", ".SplashActivity");
         capabilities.setCapability("automationName","Appium");
 

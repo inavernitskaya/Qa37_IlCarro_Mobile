@@ -8,9 +8,7 @@ public class SplashScreen extends BaseScreen{
     public SplashScreen(AppiumDriver<AndroidElement> driver) {
         super(driver);
     }
-    @FindBy(xpath = "//*[@resource-id='com.telran.ilcarro:id/textView']")
-    AndroidElement versionTextView;
-    @FindBy(xpath = "//*[@rresource-id='com.telran.ilcarro:id/versionText']")
+    @FindBy(xpath = "//*[@resource-id='com.telran.ilcarro:id/versionText']")
     AndroidElement versionTextView;
 
     public String getCurrentVersion(){
